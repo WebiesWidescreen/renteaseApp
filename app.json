@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "rentease",
-    "slug": "rentease",
+    "name": "renteaseApp",
+    "slug": "renteaseApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.udhayam26.renteaseApp"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "jsEngine": "hermes",
+    "extra": {
+      "eas": {
+        "projectId": "c687ee52-2e5b-422b-880d-aa02ee4bfaf4"
+      }
     }
   }
 }
